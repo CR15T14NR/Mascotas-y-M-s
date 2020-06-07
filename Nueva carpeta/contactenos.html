@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">  
+    <link rel="stylesheet" href="CSS/estilo.css" type="text/css"> 
+    <link rel="stylesheet" href="estiloform.css" type="text/css">                            
+    <title>Mascotas y Más</title>
+</head>
+<body>
+<!-- --------------aca comienza toda la pagina---------------->
+    <header>
+     <h1>Mascotas y Más</h1>
+<!---este espacio es para el boton de menu en dispositivos moviles--->
+<!------------------------------------------------------------------->
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="IMG/menu.png"/></label>
+<!--------- -------aca comienza el menu de navegacion---------------->
+<!------------------------------------------------------------------->
+               <nav>
+                   <ul>
+                       <li><a href="index.html">INICIO</a></li>
+                       <li><a href="juguetes.html">JUEGUETES</a>
+                       <li><a href="nosotros.html">NOSOTROS</a></li>
+                       <li><a href="contactenos.html">CONTACTENOS</a></li>
+                    </ul>
+               </nav>
+    </header>
+       <h1 class="h1">CONTACTENOS</h1>
+        <form action="registrar.php" method="post" class="form-register">
+          <h2 class="titulo">INGRESA TUS DATOS</h2>
+          <div class="contenedor-inputs">
+              <input type="text" name="nombre" placeholder="Nombre" class="inputs-48" required>
+              <input type="text" name="apellido" placeholder="Apellidos" class="inputs-48" required>
+              <input type="email" name="correo" placeholder="Correo" class="inputs-100" required>
+              <input type="text" name="telefono" placeholder="Telefono" class="input-50" required>
+              <input type="text" name="direccion"  placeholder="Direccion" class="inputs-100" required>
+              <input type="submit" value="Enviar" class="enviar">
+              <p class="revisa">
+                  Revisa si tus datos estan correctos antes de enviar
+              </p>
+          </div>
+        </form> 
+           <footer>
+            <address>Web creada por: Cristian Alexander Romero Castillo <br>Codigo: 2190-20-2164 <br>Todos los derechos reservados mayo de 2020.
+            </address>
+        </footer> 
+</body>
+</html>
